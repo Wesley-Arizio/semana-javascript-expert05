@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx http-server public"
+    "start": "npx http-server public",
+    "start:dev": "npx http-server public --cert certificates/cert.pem --key certificates/key.pem --ssl"
   },
   "keywords": [],
   "author": "erickwendel",
